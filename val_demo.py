@@ -16,7 +16,7 @@ def main():
     # --------------------------------
     # basic settings
     # --------------------------------
-    testsets = 'H:/'
+    testsets = os.path.join(os.getcwd(), 'data')
     testset_L = 'DIV2K_valid_LR_bicubic'
 
     torch.cuda.current_device()
